@@ -50,7 +50,7 @@ function App() {
   }
 
    const rangoPrecio = {
-    min : 200,
+    min : 1000,
     max : 5000000,
     imageFrom : "",
     imageTo : ""
@@ -146,7 +146,7 @@ function App() {
             max={rangoQuilatajes.max}
             imageFrom={rangoQuilatajes.imageFrom}
             imageTo={rangoQuilatajes.imageTo}
-            step={1}
+            step={0.1}
             state={carat}
             setState={setCarat}
           />
@@ -157,7 +157,7 @@ function App() {
             max={rangoPrecio.max}
             imageFrom={rangoPrecio.imageFrom}
             imageTo={rangoPrecio.imageTo}
-            step={100000}
+            step={10000}
             state={price}
             setState={setPrice}
           />

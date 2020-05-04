@@ -9,6 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-slider": "^1.0.4",
     "reactrangeslider": "^3.0.6"
   },
   "scripts": {
