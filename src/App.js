@@ -15,7 +15,7 @@ function App() {
     {src : "img/Forma/pera.png", label : "Pera"},
     {src : "img/Forma/asscher.png", label : "Asscher"},
     {src : "img/Forma/corazon.png", label : "Corazon"},
-    {src : "img/Forma/cojin.png", label : "Cojin"},
+    {src : "img/Forma/cojijn.png", label : "Cojin"},
     {src : "img/Forma/baguette.png", label : "Baguette"},
     {src : "img/Forma/trillon.png", label : "Trillon"},
     {src : "img/Forma/radiante.png", label : "Radiante"},
@@ -139,7 +139,8 @@ function App() {
             state={cut}
             setState={setCut}
           />
-          <RangeFilter title={"Quilataje"}
+          <RangeFilter 
+            title={"Quilataje"}
             tooltip={"Selecciona el rango del quilataje del diamante."}
             min={rangoQuilatajes.min}
             max={rangoQuilatajes.max}
@@ -149,7 +150,8 @@ function App() {
             state={carat}
             setState={setCarat}
           />
-          <RangeFilter title={"Precio"}
+          <RangeFilter 
+            title={"Precio"}
             tooltip={"Selecciona el precio del quilataje del diamante."}
             min={rangoPrecio.min}
             max={rangoPrecio.max}
